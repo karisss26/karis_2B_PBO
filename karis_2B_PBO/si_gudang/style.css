@@ -1,0 +1,104 @@
+/* Styling Umum */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling Header/Judul */
+.judul {
+    background-color: #79d2e1; /* Warna biru kehijauan */
+    color: #000;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 3px solid #63c6d5;
+}
+
+.judul h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.judul h2 {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* Styling Pesan Status (Jika Ada) */
+/* Pesan "Data berhasil di update." */
+body > div + br + p {
+    color: green;
+    margin-left: 20px;
+}
+
+/* Styling Tabel */
+.table {
+    width: 95%; /* Mengatur lebar tabel */
+    margin: 20px auto; /* Membuat tabel berada di tengah */
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Header Tabel */
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/* Styling Baris Tabel (Garis ganti warna untuk nomor ganjil/genap) */
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect */
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styling Link di Kolom Opsi */
+.table td a {
+    text-decoration: none;
+    color: #1a73e8;
+    margin: 0 3px;
+    font-size: 13px;
+}
+
+.table td a:hover {
+    text-decoration: underline;
+}
+
+/* Styling untuk h3 "Data User" */
+h3 {
+    margin: 20px 0 10px 20px;
+    font-size: 18px;
+}
+
+/* Styling Tombol "+ Tambah Data Baru" */
+/* Dalam kode PHP kamu, ini adalah <a> dengan class="tombol" */
+.tombol {
+    background-color: #4CAF50; /* Warna hijau */
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.tombol:hover {
+    background-color: #45a049;
+}
