@@ -1,0 +1,8 @@
+/* File: belajar.css */
+
+h2 {
+    color: white; /* Mengubah warna teks menjadi putih */
+    background-color: black; /* Mengubah warna latar belakang menjadi hitam */
+    padding: 5px; /* Opsional: Menambahkan sedikit padding agar lebih terlihat */
+    display: inline-block; /* Opsional: Membuat background hanya selebar teks */
+}
